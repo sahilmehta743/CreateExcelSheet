@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CreateExcelSheetApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CreateExcelSheetApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        System.exit(SpringApplication.exit(SpringApplication.run(CreateExcelSheetApplication.class, args)));
+    }
 }
